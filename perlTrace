@@ -1,3 +1,8 @@
+# How to use this code?
+# Save below code as Devel/MyTrace.pm
+# Then call any perl program - /usr/software/bin/perl5.14.0 -d:MyTrace tbs -c scspr2496766015
+#debugger will identify the script MyTrace and start dumping the trace output in  mytrace.$$
+
 use v5.10;
 use autodie;
 
